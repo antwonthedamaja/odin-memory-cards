@@ -1,10 +1,18 @@
 main {
     flex-grow: 10;
-    display: grid;
-    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5rem;
     border-top: 2px solid black;
+    gap: 1rem;
 }
 
-/* .card {
+.card {
+    height: 16rem;
+    width: 14rem;
+}
 
-} */
+.card:hover {
+    background-color: rgb(187, 187, 187);
+}

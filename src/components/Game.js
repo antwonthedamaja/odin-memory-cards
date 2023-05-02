@@ -5,9 +5,8 @@ import uniqid from 'uniqid';
 
 function Game({props}) {
     const [list, setList] = useState(props);
-    
-    function shuffleList() {
-        const clone = structuredClone(list);
+
+    function shuffleList(clone) {
         for (let i = clone.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [clone[i], clone[j]] = [clone[j], clone[i]];
@@ -20,15 +19,25 @@ function Game({props}) {
         clone.forEach(item => {
             item.toggle = false;
         });
-        setList(clone);
+        shuffleList(clone);
     }
     
+    function handleClick(e) {
+        if (list[e.target.dataset.index].toggle === false) {
+            const clone = structuredClone(list);
+            clone[e.target.dataset.index].toggle = true;
+            shuffleList(clone);
+        } else {
+            resetToggles();
+        }
+    }
+
     function renderList() {
         const array = [];
-        list.forEach(item => {
-            const element = <div key={uniqid()} className='card'>
+        list.forEach((item, index) => {
+            const element = <div data-index={index} key={uniqid()} className='card' onClick={handleClick}>
                 <div className='picture'></div>
-                <div className='name'>{item.name}</div>
+                <div className='name'>{item.name + ' ' + item.toggle}</div>
             </div>
             array.push(element);
         });
@@ -36,7 +45,7 @@ function Game({props}) {
     }
     
     return (
-        <main onClick={shuffleList}>
+        <main>
             {renderList()}
         </main>
     )
