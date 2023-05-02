@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/app.css';
-import Game from './components/Game';
+import Initialize from './components/Initialize';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <div id="score"></div>
         <div>Made by: antwonthedamaja</div>
       </header>
-      <Game />
+      <Initialize />
     </div>
   );
 }
