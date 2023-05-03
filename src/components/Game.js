@@ -3,8 +3,9 @@ import React, {useState} from 'react';
 import '../style/game.css';
 import uniqid from 'uniqid';
 
-function Game({props}) {
-    const [list, setList] = useState(props);
+function Game(props) {
+    const [list, setList] = useState(props.characters);
+    const {increaseScore, increaseTally, resetTally, increaseLosses} = props;
 
     function shuffleList(clone) {
         for (let i = clone.length - 1; i > 0; i--) {
@@ -26,9 +27,26 @@ function Game({props}) {
         if (list[e.target.dataset.index].toggle === false) {
             const clone = structuredClone(list);
             clone[e.target.dataset.index].toggle = true;
+            const check = checkforWin(clone);
             shuffleList(clone);
+            increaseTally();
+            if (check) {
+                resetTally();
+                increaseScore();
+            }
         } else {
             resetToggles();
+            resetTally();
+            increaseLosses();
+        }
+    }
+
+    function checkforWin(clone) {
+        if (clone.every(item => item.toggle === true)) {
+            clone.forEach(item => {
+                item.toggle = false;
+            });
+            return true;
         }
     }
 
