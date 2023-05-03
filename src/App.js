@@ -2,18 +2,23 @@ import React, {useState} from 'react';
 import './style/app.css';
 import Game from './components/Game';
 import Score from './components/Score';
+import uniqid from 'uniqid';
 
-const obamna = {name: 'obamna', src: '', toggle: false};
-const juan = {name: 'juan', src: '', toggle: false};
-const hampter = {name: 'hampter', src: '', toggle: false};
-const slug = {name: 'slug', src: '', toggle: false};
-const giga = {name: 'giga', src: '', toggle: false};
-const sickos = {name: 'sickos', src: '', toggle: false};
-const terry = {name: 'terry', src: '', toggle: false};
-const vegeta = {name: 'vegeta', src: '', toggle: false};
-const ted = {name: 'ted', src: '', toggle: false};
+const obamna = {name: 'obamna', key: uniqid(), toggle: false};
+const juan = {name: 'juan', key: uniqid(), toggle: false};
+const hampter = {name: 'hampter', key: uniqid(), toggle: false};
+const slug = {name: 'slug', key: uniqid(), toggle: false};
+const giga = {name: 'giga', key: uniqid(), toggle: false};
+const sickos = {name: 'sickos', key: uniqid(), toggle: false};
+const terry = {name: 'terry', key: uniqid(), toggle: false};
+const ted = {name: 'ted', key: uniqid(), toggle: false};
+const politics = {name: 'politics', key: uniqid(), toggle: false};
+const vr = {name: 'vr', key: uniqid(), toggle: false};
+const daedon = {name: 'daedon', key: uniqid(), toggle: false};
+const pondsage = {name: 'pondsage', key: uniqid(), toggle: false};
+const garloid = {name: 'garloid', key: uniqid(), toggle: false};
 
-const array = [obamna, juan, hampter, slug, giga, sickos, terry, vegeta, ted];
+const array = [obamna, juan, hampter, slug, giga, sickos, terry, vr, ted, politics, daedon, pondsage, garloid];
 
 function App() {
   const [score, setScore] = useState(0);

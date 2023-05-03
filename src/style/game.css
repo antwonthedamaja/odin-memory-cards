@@ -1,4 +1,4 @@
-main {
+#main {
     flex-grow: 10;
     display: flex;
     justify-content: space-around;
@@ -9,10 +9,18 @@ main {
 }
 
 .card {
-    height: 16rem;
+    height: 17rem;
     width: 14rem;
+}
+
+.card * {
+    pointer-events: none;
 }
 
 .card:hover {
     background-color: rgb(187, 187, 187);
+}
+
+img {
+    max-width: 14rem;
 }
