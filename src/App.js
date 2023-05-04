@@ -12,12 +12,12 @@ const giga = {name: 'giga', key: uniqid(), toggle: false};
 const sickos = {name: 'sickos', key: uniqid(), toggle: false};
 const terry = {name: 'terry', key: uniqid(), toggle: false};
 const ted = {name: 'ted', key: uniqid(), toggle: false};
-const politics = {name: 'politics', key: uniqid(), toggle: false};
+const pepsiking = {name: 'pepsiking', key: uniqid(), toggle: false};
 const daedon = {name: 'daedon', key: uniqid(), toggle: false};
 const pondsage = {name: 'pondsage', key: uniqid(), toggle: false};
 const garloid = {name: 'garloid', key: uniqid(), toggle: false};
 
-const array = [obamna, juan, hampter, slug, giga, sickos, terry, ted, politics, daedon, pondsage, garloid];
+const array = [obamna, juan, hampter, slug, giga, sickos, terry, ted, pepsiking, daedon, pondsage, garloid];
 
 function App() {
   const [score, setScore] = useState(0);

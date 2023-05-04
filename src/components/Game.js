@@ -6,7 +6,7 @@ import giga from '../assets/giga.jpg'
 import hampter from '../assets/hampter.png'
 import juan from '../assets/juan.png'
 import obamna from '../assets/obamna.jpg'
-import politics from '../assets/politics.jpg'
+import pepsiking from '../assets/pepsiking.jpg'
 import pondsage from '../assets/pondsage.jpg'
 import sickos from '../assets/sickos.png'
 import slug from '../assets/slug.png'
@@ -17,7 +17,7 @@ import garloid from '../assets/garloid.png'
 function Game(props) {
     const [list, setList] = useState(props.characters);
     const {increaseScore, increaseTally, resetTally, increaseLosses} = props;
-    const images = {obamna, juan, hampter, slug, giga, sickos, terry, ted, politics, daedon, pondsage, garloid}
+    const images = {obamna, juan, hampter, slug, giga, sickos, terry, ted, pepsiking, daedon, pondsage, garloid}
 
     function shuffleList(clone) {
         for (let i = clone.length - 1; i > 0; i--) {
