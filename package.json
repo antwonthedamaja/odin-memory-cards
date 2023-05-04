@@ -13,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,6 +42,8 @@
     "eslint": "^8.38.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-react": "^7.32.2"
-  }
+    "eslint-plugin-react": "^7.32.2",
+    "gh-pages": "^5.0.0"
+  },
+  "homepage": "http://antwonthedamaja.github.io/odin-memory-cards"
 }

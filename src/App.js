@@ -13,12 +13,11 @@ const sickos = {name: 'sickos', key: uniqid(), toggle: false};
 const terry = {name: 'terry', key: uniqid(), toggle: false};
 const ted = {name: 'ted', key: uniqid(), toggle: false};
 const politics = {name: 'politics', key: uniqid(), toggle: false};
-const vr = {name: 'vr', key: uniqid(), toggle: false};
 const daedon = {name: 'daedon', key: uniqid(), toggle: false};
 const pondsage = {name: 'pondsage', key: uniqid(), toggle: false};
 const garloid = {name: 'garloid', key: uniqid(), toggle: false};
 
-const array = [obamna, juan, hampter, slug, giga, sickos, terry, vr, ted, politics, daedon, pondsage, garloid];
+const array = [obamna, juan, hampter, slug, giga, sickos, terry, ted, politics, daedon, pondsage, garloid];
 
 function App() {
   const [score, setScore] = useState(0);
@@ -44,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div>Meme Memory</div>
+        <div id="logo">Meme Memory</div>
         <div>
           <div>Made by: antwonthedamaja</div>
           <Score score={score} losses={losses} tally={tally}/>

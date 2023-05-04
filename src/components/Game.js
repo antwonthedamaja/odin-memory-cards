@@ -3,22 +3,21 @@ import React, {useState} from 'react';
 import '../style/game.css';
 import daedon from '../assets/daedon.jpg'
 import giga from '../assets/giga.jpg'
-import hampter from '../assets/hampter.jpg'
+import hampter from '../assets/hampter.png'
 import juan from '../assets/juan.png'
-import obamna from '../assets/obamna.png'
+import obamna from '../assets/obamna.jpg'
 import politics from '../assets/politics.jpg'
 import pondsage from '../assets/pondsage.jpg'
 import sickos from '../assets/sickos.png'
 import slug from '../assets/slug.png'
 import ted from '../assets/ted.jpg'
 import terry from '../assets/terry.jpg'
-import vr from '../assets/vr.jpg'
 import garloid from '../assets/garloid.png'
 
 function Game(props) {
     const [list, setList] = useState(props.characters);
     const {increaseScore, increaseTally, resetTally, increaseLosses} = props;
-    const images = {obamna, juan, hampter, slug, giga, sickos, terry, vr, ted, politics, daedon, pondsage, garloid}
+    const images = {obamna, juan, hampter, slug, giga, sickos, terry, ted, politics, daedon, pondsage, garloid}
 
     function shuffleList(clone) {
         for (let i = clone.length - 1; i > 0; i--) {
@@ -68,7 +67,7 @@ function Game(props) {
             {list.map((item, index) => {
                 return <div data-index={index} key={item.key} className='card' onClick={handleClick}>
                 <img src={images[item.name]} />
-                <div>{item.name + ' ' + item.toggle}</div>
+                <div className='name'><span>{item.name}</span></div>
             </div>
             })}
         </div>

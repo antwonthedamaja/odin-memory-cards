@@ -9,8 +9,8 @@
 }
 
 .card {
-    height: 17rem;
-    width: 14rem;
+    max-height: 17rem;
+    max-width: 14rem;
 }
 
 .card * {
@@ -23,4 +23,12 @@
 
 img {
     max-width: 14rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
