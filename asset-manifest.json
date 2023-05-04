@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/odin-memory-cards/static/css/main.ffe1638d.css",
-    "main.js": "/odin-memory-cards/static/js/main.a76b87e1.js",
+    "main.js": "/odin-memory-cards/static/js/main.a6eaca92.js",
     "static/media/garloid.png": "/odin-memory-cards/static/media/garloid.ab0e165d3a880daf9635.png",
     "static/media/pepsiking.jpg": "/odin-memory-cards/static/media/pepsiking.8d176fec73023539a413.jpg",
     "static/media/sickos.png": "/odin-memory-cards/static/media/sickos.60aef37dc01cc5fa4783.png",
@@ -10,16 +10,16 @@
     "static/media/juan.png": "/odin-memory-cards/static/media/juan.032077cd5b7adca5824a.png",
     "static/media/pondsage.jpg": "/odin-memory-cards/static/media/pondsage.e078d7ebcd6717ed4236.jpg",
     "static/media/terry.jpg": "/odin-memory-cards/static/media/terry.e14ff7d7775cdba35c36.jpg",
-    "static/media/giga.jpg": "/odin-memory-cards/static/media/giga.0cd382dd6a991df682dd.jpg",
+    "static/media/antwon.jpg": "/odin-memory-cards/static/media/antwon.0cd382dd6a991df682dd.jpg",
     "static/media/ted.jpg": "/odin-memory-cards/static/media/ted.b3efa178a3f1d5c9d073.jpg",
-    "static/media/daedon.jpg": "/odin-memory-cards/static/media/daedon.6c793e3d63d7f10dd17a.jpg",
+    "static/media/samhyde.jpg": "/odin-memory-cards/static/media/samhyde.6c793e3d63d7f10dd17a.jpg",
     "static/media/obamna.jpg": "/odin-memory-cards/static/media/obamna.bc6fc96b0222c518f253.jpg",
     "index.html": "/odin-memory-cards/index.html",
     "main.ffe1638d.css.map": "/odin-memory-cards/static/css/main.ffe1638d.css.map",
-    "main.a76b87e1.js.map": "/odin-memory-cards/static/js/main.a76b87e1.js.map"
+    "main.a6eaca92.js.map": "/odin-memory-cards/static/js/main.a6eaca92.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe1638d.css",
-    "static/js/main.a76b87e1.js"
+    "static/js/main.a6eaca92.js"
   ]
 }
