@@ -1,8 +1,8 @@
 /* eslint-disable react/prop-types */
 import React, {useState} from 'react';
 import '../style/game.css';
-import daedon from '../assets/daedon.jpg'
-import giga from '../assets/giga.jpg'
+import samhyde from '../assets/samhyde.jpg'
+import antwon from '../assets/antwon.jpg'
 import hampter from '../assets/hampter.png'
 import juan from '../assets/juan.png'
 import obamna from '../assets/obamna.jpg'
@@ -17,7 +17,7 @@ import garloid from '../assets/garloid.png'
 function Game(props) {
     const [list, setList] = useState(props.characters);
     const {increaseScore, increaseTally, resetTally, increaseLosses} = props;
-    const images = {obamna, juan, hampter, slug, giga, sickos, terry, ted, pepsiking, daedon, pondsage, garloid}
+    const images = {obamna, juan, hampter, slug, antwon, sickos, terry, ted, pepsiking, samhyde, pondsage, garloid}
 
     function shuffleList(clone) {
         for (let i = clone.length - 1; i > 0; i--) {

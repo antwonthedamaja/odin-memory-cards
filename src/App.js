@@ -8,16 +8,16 @@ const obamna = {name: 'obamna', key: uniqid(), toggle: false};
 const juan = {name: 'juan', key: uniqid(), toggle: false};
 const hampter = {name: 'hampter', key: uniqid(), toggle: false};
 const slug = {name: 'slug', key: uniqid(), toggle: false};
-const giga = {name: 'giga', key: uniqid(), toggle: false};
+const antwon = {name: 'antwon', key: uniqid(), toggle: false};
 const sickos = {name: 'sickos', key: uniqid(), toggle: false};
 const terry = {name: 'terry', key: uniqid(), toggle: false};
 const ted = {name: 'ted', key: uniqid(), toggle: false};
 const pepsiking = {name: 'pepsiking', key: uniqid(), toggle: false};
-const daedon = {name: 'daedon', key: uniqid(), toggle: false};
+const samhyde = {name: 'samhyde', key: uniqid(), toggle: false};
 const pondsage = {name: 'pondsage', key: uniqid(), toggle: false};
 const garloid = {name: 'garloid', key: uniqid(), toggle: false};
 
-const array = [obamna, juan, hampter, slug, giga, sickos, terry, ted, pepsiking, daedon, pondsage, garloid];
+const array = [obamna, juan, hampter, slug, antwon, sickos, terry, ted, pepsiking, samhyde, pondsage, garloid];
 
 function App() {
   const [score, setScore] = useState(0);
