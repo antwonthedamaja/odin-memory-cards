@@ -17,7 +17,7 @@ const samhyde = {name: 'samhyde', key: uniqid(), toggle: false};
 const pondsage = {name: 'pondsage', key: uniqid(), toggle: false};
 const garloid = {name: 'garloid', key: uniqid(), toggle: false};
 
-const array = [obamna, juan, hampter, slug, antwon, sickos, terry, ted, pepsiking, samhyde, pondsage, garloid];
+const array = [obamna, juan, hampter, antwon, slug, sickos, terry, ted, pepsiking, samhyde, pondsage, garloid];
 
 function App() {
   const [score, setScore] = useState(0);
