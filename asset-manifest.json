@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/odin-memory-cards/static/css/main.ffe1638d.css",
-    "main.js": "/odin-memory-cards/static/js/main.079b8832.js",
+    "main.js": "/odin-memory-cards/static/js/main.a76b87e1.js",
     "static/media/garloid.png": "/odin-memory-cards/static/media/garloid.ab0e165d3a880daf9635.png",
+    "static/media/pepsiking.jpg": "/odin-memory-cards/static/media/pepsiking.8d176fec73023539a413.jpg",
     "static/media/sickos.png": "/odin-memory-cards/static/media/sickos.60aef37dc01cc5fa4783.png",
     "static/media/hampter.png": "/odin-memory-cards/static/media/hampter.477171d6c0b90f2d857a.png",
     "static/media/slug.png": "/odin-memory-cards/static/media/slug.046539af9a03d1371dcc.png",
@@ -13,13 +14,12 @@
     "static/media/ted.jpg": "/odin-memory-cards/static/media/ted.b3efa178a3f1d5c9d073.jpg",
     "static/media/daedon.jpg": "/odin-memory-cards/static/media/daedon.6c793e3d63d7f10dd17a.jpg",
     "static/media/obamna.jpg": "/odin-memory-cards/static/media/obamna.bc6fc96b0222c518f253.jpg",
-    "static/media/politics.jpg": "/odin-memory-cards/static/media/politics.19353e5ab3e1e0b8d5a7.jpg",
     "index.html": "/odin-memory-cards/index.html",
     "main.ffe1638d.css.map": "/odin-memory-cards/static/css/main.ffe1638d.css.map",
-    "main.079b8832.js.map": "/odin-memory-cards/static/js/main.079b8832.js.map"
+    "main.a76b87e1.js.map": "/odin-memory-cards/static/js/main.a76b87e1.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe1638d.css",
-    "static/js/main.079b8832.js"
+    "static/js/main.a76b87e1.js"
   ]
 }
